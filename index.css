@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    justify-content: center;
+   
+   
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.status {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: rgb(98, 67, 148);
+}
+
+.restart-btn {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.restart-btn:hover {
+    background-color: #0056b3;
+}
+.cell{
+    color: rgb(0, 98, 128);
+}
+
